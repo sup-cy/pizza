@@ -1,4 +1,5 @@
-import formatCurrency from "../../utils/helpers";
+import { formatCurrency } from "../../utils/helpers";
+
 function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
